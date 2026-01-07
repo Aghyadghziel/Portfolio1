@@ -158,12 +158,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Kazan Federal University",
+        description: <>Bachelor of Science in Computer Science.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Fullstack Development Focus",
+        description: <>Completed professional online courses in Fullstack Web Development (React, Node.js, Express, SQL/NoSQL, Tailwind CSS).</>,
       },
     ],
   },
