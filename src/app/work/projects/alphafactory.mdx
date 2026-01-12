@@ -6,39 +6,45 @@ images:
   - "/images/projects/project-01/image-02.png"
   - "/images/projects/project-01/image-03.png"
 team:
-  - name: "John Doe"
-    role: "Software Engineer"
+  - name: "Aghyad Ghziel"
+    role: "Fullstack developer"
     avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
+    linkedIn: "https://www.linkedin.com/in/aghyadghziel/"
 link: "https://www.xalphafactory.com/"
 ---
 
 ## Overview
 
-In this project, I focused on automating the often tedious design handover process. The goal was to create a pipeline that converts Figma designs directly into clean, production-ready code. By integrating design tokens, component libraries, and automated workflows, this solution significantly reduced the time spent on translating design assets into code, while maintaining design consistency across the product.
+Led the development of a full-stack collaboration platform at Alpha Factory, enabling seamless partnerships between influencers, designers, and video editors. The platform allows influencers to submit video content, request editing and thumbnail design services, and handle payments via PayPal or cryptocurrency. Built with a scalable architecture and a modern, responsive frontend, the system also includes a robust admin panel for platform management.
 
 ## Key Features
 
-- **Figma Plugin Integration**: Developed a custom Figma plugin that extracts design tokens such as colors, typography, and spacing values, and exports them in a format compatible with our codebase.
-- **Code Generation**: Integrated an automated process that translates Figma components into React code using a combination of design tokens and pre-built component templates. This allowed developers to focus more on logic and less on repetitive UI coding.
-- **Continuous Sync**: Established a CI/CD pipeline that continuously synchronizes design changes from Figma to the codebase, ensuring design updates are reflected instantly without manual intervention.
-- **Scalable Design System**: Leveraged a design system that remains the single source of truth for both designers and developers, making it easy to maintain consistency even as the product evolves.
+- \*\*Influencer Workflow
+  Enabled influencers to upload videos and submit requests for editing and thumbnail design. Users can track project progress, communicate with designers/editors, and receive final deliverables directly through the platform.
+- Designer & Editor Collaboration
+  Developed a dashboard for designers and editors to accept requests, submit drafts, and manage revisions, streamlining the creative workflow between all parties
+- Payments & Monetization
+  Integrated PayPal and cryptocurrency payments to handle project fees, including secure checkout, payment tracking, and transaction history for both influencers and service providers.
+- Admin Panel
+  Built a comprehensive admin dashboard to manage users, monitor projects, approve or reject submissions, and handle disputes or issues, ensuring smooth platform operations.
+- UI & Frontend Architecture
+  Designed a responsive and user-friendly frontend with React and Next.js, focusing on accessibility, real-time updates, and seamless interaction between platform roles.
+- File Management & Data Processing
+  Implemented secure file uploads, storage, and validation for video files and thumbnails, using Prisma for database management to ensure data integrity and scalability.
 
 ## Technologies Used
 
-- **Figma API**: For extracting design tokens and component data directly from the Figma designs.
-- **React and Next.js**: For building the front-end codebase with clean, reusable components.
-- **Styled-Components**: For managing styles dynamically using design tokens.
-- **GitHub Actions**: For automating the pipeline and syncing design changes to the repository.
+- Next.js & React – Frontend architecture and server-rendered applications
+- Node.js & Express – Backend API and request handling
+- PayPal API & Cryptocurrency Payment Gateways – Secure payment processing
+- Prisma – Database management and structured storage
+- TypeScript – Type-safe frontend and backend development
+- Radix UI / Tailwind CSS – Responsive, modular, and accessible UI components
 
 ## Challenges and Learnings
 
-One of the biggest challenges was ensuring that the generated code was clean and maintainable. This involved setting up intelligent mapping between Figma components and React code structures, as well as managing edge cases like responsive design and conditional rendering. Additionally, the continuous synchronization required a robust error-handling system to prevent conflicts during development.
+Coordinating workflows between multiple user roles (influencers, designers, editors, admins) while maintaining a secure and scalable payment system was a key challenge. Implementing real-time project status updates, handling large video files efficiently, and integrating multiple payment options taught important lessons in full-stack architecture, database design with Prisma, cloud storage management, and cross-role collaboration.
 
 ## Outcome
 
-The automated Figma to code pipeline has streamlined the handoff process, cutting down design-to-development time by 40%. Designers now have more confidence that their designs will be accurately translated into code, and developers can focus on more complex logic and feature development. This project has proven the value of automation in bridging the gap between design and development.
-
----
-
-This project demonstrates your ability to leverage automation and streamline workflows, which is highly relevant for design engineering portfolios focused on efficiency and innovation.
+The platform successfully facilitated collaboration between influencers and creative teams, allowing seamless video editing, thumbnail design, and payments. The modular architecture, Prisma-managed database, and admin dashboard streamlined operations, reduced friction between platform users, and provided a scalable foundation for future expansion of services.
