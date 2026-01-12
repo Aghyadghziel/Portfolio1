@@ -1,5 +1,5 @@
 ---
-title: "Bagel Platform – Frontend Development"
+title: "BagelLabs – Fullstack Development"
 publishedAt: "2024-04-08"
 summary: "Frontend development for the Bagel platform, focusing on building responsive, high-performance user interfaces using modern frontend technologies. Implemented reusable UI components, optimized user experience, and closely collaborated with design and backend teams."
 images:
@@ -16,26 +16,35 @@ link: "https://app.bagel.com/"
 
 ## Overview
 
-Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration.
+Led the development of a full-stack SaaS platform at Bagel Labs, contributing as a Frontend Lead and Full Stack Developer. The platform enables users to fine-tune AI models and manage subscription-based access to advanced models such as VEO 3, Flux, and a variety of image and video models. The project focused on secure authentication, scalable data management, subscription payments, and a modern, responsive user experience for AI developers and creative teams.
 
 ## Key Features
 
-- **Component Library**: Built a set of modular, reusable UI components using React and styled-components in Next.js, focusing on accessibility and responsiveness.
-- **Theming and Customization**: Integrated a theming system that allows easy switching and customization of color palettes, typography, and layout styles using CSS variables and Figma tokens.
-- **Figma Integration**: Collaborated closely with designers by setting up a shared design library in Figma. This library was synchronized with the codebase, ensuring design handoffs were seamless and that design tokens remained consistent across both platforms.
-- **Documentation and Usage Guidelines**: Developed comprehensive documentation with Storybook to showcase components, usage patterns, and best practices, ensuring the design system is easy to adopt by other teams.
+- Authentication & Authorization
+  Implemented a secure authentication system using NextAuth.js, supporting OAuth providers (Google, GitHub) and role-based access control to manage user permissions for both general users and admins.
+- Model Access & Deployment
+  Built a model deployment and fine-tuning system with real-time monitoring and status tracking. Users can deploy, test, and fine-tune AI models, including image, video, and text models.
+- Subscription Management
+  Integrated Stripe to manage subscriptions for accessing premium AI models, handling billing, plan upgrades, and transaction workflows securely.
+- Data & File Management
+  Developed a robust data management system supporting file uploads, processing pipelines, and validation logic, ensuring users can safely upload datasets for model fine-tuning.
+- Admin Console
+  Designed an admin dashboard for user management, system monitoring, and operational controls to support platform administration and internal workflows.
+- UI & Frontend Architecture
+  Led the frontend architecture, building responsive and accessible UI components using Radix UI and modern React patterns for a seamless user experience.
 
 ## Technologies Used
 
-- **Next.js**: For fast, server-rendered React applications.
-- **Figma**: For creating and managing design assets and prototypes.
-- **Styled-Components**: For styling React components with a modular, themable approach.
-- **Storybook**: For building an interactive, documented component library.
+- Next.js & React – Frontend architecture and server-rendered applications
+- Stripe – Subscription and payment processing
+- Radix UI – Accessible, composable UI components
+- AWS (DynamoDB, S3) – Cloud infrastructure and data storage
+- TypeScript – Type-safe frontend and backend development
 
 ## Challenges and Learnings
 
-One key challenge was balancing the need for flexibility with the desire to maintain design consistency. The solution involved creating well-defined design tokens and establishing clear guidelines for when and how components could be customized. Additionally, setting up effective collaboration workflows between designers and developers using Figma and Git was a learning experience that greatly improved the process.
+Balancing fast iteration with long-term scalability and security was a key challenge. Ensuring smooth fine-tuning workflows for multiple AI models while maintaining subscription access controls required careful system design. Coordinating full-stack features across authentication, payments, AI model deployment, and cloud infrastructure strengthened my end-to-end development skills and remote team collaboration.
 
 ## Outcome
 
-The design system is now actively used across multiple projects, leading to faster development cycles, fewer design inconsistencies, and improved collaboration between design and development teams. It has become a foundation for scaling our products efficiently while ensuring a cohesive user experience.
+The platform successfully enabled users to fine-tune and deploy AI models while managing subscriptions for advanced models like VEO 3 and Flux. The modular frontend and admin tooling reduced maintenance overhead, improved observability, and accelerated feature delivery, providing a scalable foundation for future AI-driven products.
