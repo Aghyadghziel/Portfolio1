@@ -112,23 +112,38 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Bagel Labs — Remote",
+        timeframe: "Jan 2024 — Sep 2025",
+        role: "Senior Fullstack Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+      Worked as a Full Stack Developer with frontend leadership responsibility on a SaaS platform focused on AI model fine-tuning and subscription-based access to advanced image and video models (including VEO 3, Flux, and others).
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+    Built secure authentication and authorization using NextAuth.js with OAuth (Google, GitHub) and role-based access control
+          </>,
+          <>
+ntegrated Stripe for subscription management, billing workflows, and transaction handling
+
+Designed and implemented model deployment and fine-tuning workflows with real-time status monitoring
+          </>,
+          <>
+  Developed scalable data and file management systems for dataset uploads, processing, and validation
+          </>,
+          <>
+Built a full admin console for user management, system monitoring, and operational control
+          </>,
+          <>
+Integrated AWS services (S3, DynamoDB) to support cloud infrastructure
+          </>,
+          <>
+Collaborated closely with backend, product, and design teams in a fully remote environment
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/cover-04.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -136,20 +151,43 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Alpha Factory - Remote",
+        timeframe: "aug 2025 — Dec 2025",
+        role: "Fullstack Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+        Built a full-stack collaboration platform connecting influencers, designers, and video editors into a unified workflow.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+       Developed influencer workflows for submitting video content and requesting editing and thumbnail design
+          </>,
+          <>
+     Built dashboards for designers and editors to manage requests, revisions, and deliveries
+          </>,
+          <>
+    Integrated PayPal and cryptocurrency payments for secure project-based transactions
+          </>,
+          <>
+Implemented a comprehensive admin panel for platform moderation, user management, and dispute handling
+          </>,
+          <>
+     Designed secure file upload and storage pipelines for large video assets
+          </>,
+          <>
+Used Prisma for database modeling and structured data storage
+          </>,
+          <>
+Delivered a responsive, role-based UI with Next.js and React
           </>,
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/image-02.png",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -183,20 +221,7 @@ const about: About = {
           },
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+     
       },
       {
         title: "Next.js",
