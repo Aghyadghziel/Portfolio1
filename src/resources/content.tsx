@@ -210,9 +210,65 @@ Delivered a responsive, role-based UI with Next.js and React
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Frontend & UI",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Building modern, accessible, and scalable user interfaces with React, Next.js, and TypeScript. Expertise in component architecture and UI libraries like Radix UI and Tailwind CSS.</>
+        ),
+        tags: [
+          {
+            name: "React",
+            icon: "react",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+          {
+            name: "TypeScript",
+            icon: "typescript",
+          },
+          {
+            name: "Tailwind CSS",
+            icon: "tailwindcss",
+          },
+        ],
+      },
+      {
+        title: "Backend & Infrastructure",
+        description: (
+          <>Developing robust backend systems with Node.js and Express. Experience with Prisma ORM, AWS services (S3, DynamoDB), and implementing secure authentication and payment solutions including NextAuth.js, Stripe, PayPal, and cryptocurrency payments.</>
+        ),
+        tags: [
+          {
+            name: "Node.js",
+            icon: "nodejs",
+          },
+          {
+            name: "Express",
+            icon: "express",
+          },
+          {
+            name: "Prisma",
+            icon: "prisma",
+          },
+          {
+            name: "AWS",
+            icon: "aws",
+          },
+          {
+            name: "Stripe",
+            icon: "stripe",
+          },
+          {
+            name: "PayPal",
+            icon: "paypal",
+          },
+        ],
+      },
+      {
+        title: "Design & Prototyping",
+        description: (
+          <>Rapid prototyping and design-to-code workflows in Figma. Strong focus on developer–designer collaboration to bridge the gap between design and implementation.</>
         ),
         tags: [
           {
@@ -220,30 +276,6 @@ Delivered a responsive, role-based UI with Next.js and React
             icon: "figma",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
-     
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-  
       },
     ],
   },
