@@ -7,7 +7,7 @@ const person: Person = {
   name: `Aghyad Ghziel`,
   role: "Fullstack Developer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  email: "aghyadghziel@gmail.com",
   location: "Asia/Tbilisi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Russian", "Arabic"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -25,27 +25,16 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Aghyadghziel",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/aghyadghziel/",
     essential: true,
   },
-  {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
-  },
+ 
   {
     name: "Email",
     icon: "email",
