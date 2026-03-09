@@ -34,7 +34,7 @@ const social: Social = [
     link: "https://www.linkedin.com/in/aghyadghziel/",
     essential: true,
   },
- 
+
   {
     name: "Email",
     icon: "email",
@@ -50,7 +50,7 @@ const home: Home = {
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Building bridges between ideas and code
-</>,
+  </>,
   featured: {
     display: true,
     title: (
@@ -58,7 +58,7 @@ const home: Home = {
         <strong className="ml-4">     Aghyad Ghziel</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-Portfolio
+          Portfolio
         </Text>
       </Row>
     ),
@@ -66,8 +66,8 @@ Portfolio
   },
   subline: (
     <>
-    I'm Aghyad, a fullstack developer with over 7 years of experience crafting scalable web applications and interactive user experiences. In my free time, I build personal projects and explore new technologies.
-</>
+      I'm Aghyad, a fullstack developer with over 5 years of experience crafting scalable web applications and interactive user experiences. In my free time, I build personal projects and explore new technologies.
+    </>
   ),
 };
 
@@ -92,7 +92,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-     I am a full-stack software engineer building scalable, high-quality web applications. I specialize in creating reliable backend systems and intuitive frontend interfaces, turning complex requirements into efficient, maintainable solutions.
+        I am a full-stack software engineer building scalable, high-quality web applications. I specialize in creating reliable backend systems and intuitive frontend interfaces, turning complex requirements into efficient, maintainable solutions.
       </>
     ),
   },
@@ -106,27 +106,27 @@ const about: About = {
         role: "Senior Fullstack Developer",
         achievements: [
           <>
-      Worked as a Full Stack Developer with frontend leadership responsibility on a SaaS platform focused on AI model fine-tuning and subscription-based access to advanced image and video models (including VEO 3, Flux, and others).
+            Worked as a Full Stack Developer with frontend leadership responsibility on a SaaS platform focused on AI model fine-tuning and subscription-based access to advanced image and video models (including VEO 3, Flux, and others).
           </>,
           <>
-    Built secure authentication and authorization using NextAuth.js with OAuth (Google, GitHub) and role-based access control
+            Built secure authentication and authorization using NextAuth.js with OAuth (Google, GitHub) and role-based access control
           </>,
           <>
-ntegrated Stripe for subscription management, billing workflows, and transaction handling
+            ntegrated Stripe for subscription management, billing workflows, and transaction handling
 
-Designed and implemented model deployment and fine-tuning workflows with real-time status monitoring
+            Designed and implemented model deployment and fine-tuning workflows with real-time status monitoring
           </>,
           <>
-  Developed scalable data and file management systems for dataset uploads, processing, and validation
+            Developed scalable data and file management systems for dataset uploads, processing, and validation
           </>,
           <>
-Built a full admin console for user management, system monitoring, and operational control
+            Built a full admin console for user management, system monitoring, and operational control
           </>,
           <>
-Integrated AWS services (S3, DynamoDB) to support cloud infrastructure
+            Integrated AWS services (S3, DynamoDB) to support cloud infrastructure
           </>,
           <>
-Collaborated closely with backend, product, and design teams in a fully remote environment
+            Collaborated closely with backend, product, and design teams in a fully remote environment
           </>,
         ],
         images: [
@@ -145,28 +145,28 @@ Collaborated closely with backend, product, and design teams in a fully remote e
         role: "Fullstack Developer",
         achievements: [
           <>
-        Built a full-stack collaboration platform connecting influencers, designers, and video editors into a unified workflow.
+            Built a full-stack collaboration platform connecting influencers, designers, and video editors into a unified workflow.
           </>,
           <>
-       Developed influencer workflows for submitting video content and requesting editing and thumbnail design
+            Developed influencer workflows for submitting video content and requesting editing and thumbnail design
           </>,
           <>
-     Built dashboards for designers and editors to manage requests, revisions, and deliveries
+            Built dashboards for designers and editors to manage requests, revisions, and deliveries
           </>,
           <>
-    Integrated PayPal and cryptocurrency payments for secure project-based transactions
+            Integrated PayPal and cryptocurrency payments for secure project-based transactions
           </>,
           <>
-Implemented a comprehensive admin panel for platform moderation, user management, and dispute handling
+            Implemented a comprehensive admin panel for platform moderation, user management, and dispute handling
           </>,
           <>
-     Designed secure file upload and storage pipelines for large video assets
+            Designed secure file upload and storage pipelines for large video assets
           </>,
           <>
-Used Prisma for database modeling and structured data storage
+            Used Prisma for database modeling and structured data storage
           </>,
           <>
-Delivered a responsive, role-based UI with Next.js and React
+            Delivered a responsive, role-based UI with Next.js and React
           </>,
         ],
         images: [
